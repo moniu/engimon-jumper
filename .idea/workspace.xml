@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c8f5241-fef1-44a5-a963-3b1ef8623223" name="Changes" comment="Initial commit - two stages, player and particles">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/Jumper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/TestStage1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/GameOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/GameWon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/MenuScene.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/Option.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/PauseMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/menu/Title.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/Fire.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/FireParticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/FirstStage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/Goal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/KillTrigger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/Platform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/SecondStage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jumper/stages/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleRight0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleRight1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoIdleRight3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkLeft5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/DinoWalkRight5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/dirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/fire4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/gitaratekstura.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/goal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/gradient.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Images/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/When_Im_46.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/jump0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/start.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/step0.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/step1.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Sounds/step2.wav" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2DcAvzTZhAV0WkGQqzl19iN22zY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Moniu/Documents/Studia/Inzynierka/Jumper/src/main/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Moniu\Documents\Studia\Inzynierka\Jumper\src\main\java" />
+      <recent name="C:\Users\Moniu\Documents\Studia\Inzynierka\Jumper\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Moniu\Documents\Studia\Inzynierka\Jumper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="jumper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Jumper">
+    <configuration name="Jumper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jumper.Jumper" />
+      <module name="Jumper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/target/classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jumper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestStage1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jumper.TestStage1" />
+      <module name="Jumper" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/target/classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jumper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Jumper" />
+      <item itemvalue="Application.TestStage1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Jumper" />
+        <item itemvalue="Application.TestStage1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c8f5241-fef1-44a5-a963-3b1ef8623223" name="Changes" comment="" />
+      <created>1660988236973</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660988236973</updated>
+      <workItem from="1660988238371" duration="11721000" />
+      <workItem from="1661022870060" duration="887000" />
+      <workItem from="1661069943821" duration="2636000" />
+      <workItem from="1661079781616" duration="714000" />
+      <workItem from="1661096837029" duration="823000" />
+      <workItem from="1661549018533" duration="1062000" />
+      <workItem from="1661598712507" duration="232000" />
+      <workItem from="1661599588746" duration="15164000" />
+      <workItem from="1661681826140" duration="15216000" />
+      <workItem from="1661976449979" duration="465000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit - two stages, player and particles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit - two stages, player and particles" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/zajac/szymon/engimon/1.0-SNAPSHOT/engimon-1.0-SNAPSHOT.jar!/engimon/signals/SignalQueue.class</url>
+          <line>46</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
